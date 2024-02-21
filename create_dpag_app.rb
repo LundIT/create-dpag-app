@@ -6,8 +6,8 @@ class CreateDpagApp < Formula
 
   desc "A simple tool to clone GitHub repos into a directory with the same name"
   homepage "https://github.com/LundIT/create-dpag-app"
-  url "https://github.com/LundIT/create-dpag-app/archive/v0.0.2.tar.gz"
-  sha256 "f9d8312cda90889891a846ff3ddd246ccd1d8e420a07b53404284980dfb90d0c"
+  url "https://github.com/LundIT/create-dpag-app/archive/v0.0.3.tar.gz"
+  sha256 "f80ce59b5504cd26f6f0a45e396cb71a103b99abd6e03aad9364cf49ff1c90c3"
 
   depends_on "python"
 
