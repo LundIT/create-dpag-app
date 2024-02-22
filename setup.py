@@ -10,6 +10,11 @@ setup(
     url="https://github.com/LundIT/create-dpag-app",
     packages=find_packages(),
     include_package_data=True,
+    entry_points={
+        'console_scripts': [
+            'create-dpag-app = create_dpag_app.create_dpag_app:main',
+        ]
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
